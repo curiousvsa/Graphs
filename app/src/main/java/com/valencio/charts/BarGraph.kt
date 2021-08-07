@@ -8,14 +8,14 @@ import com.valencio.lib.ChartBean
 import java.math.BigDecimal
 import java.util.*
 
-class MainActivity : AppCompatActivity() {
+class BarGraph : AppCompatActivity() {
 
     private var resetClicked: Boolean = false
     private val random: Int = Random().nextInt(61) + 20 // [0, 60] + 20 => [20, 80]
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_bar_graph)
 
         val resetData = findViewById<TextView>(R.id.resetData)
         resetData.setOnClickListener {

@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Charts">
-        <activity android:name=".MainActivity">
+        <activity android:name=".PieChart"></activity>
+        <activity android:name=".ChoiceScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BarGraph" />
     </application>
 
 </manifest>

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Charts</string>
+    <string name="st_BarGraph">Bar Graph</string>
+    <string name="st_PieChart">Pie Chart</string>
 </resources>
