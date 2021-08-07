@@ -37,17 +37,17 @@ class MainActivity : AppCompatActivity() {
         val barChartView = findViewById<BarChartView>(R.id.barChartView)
         for (items in 0 until 2) {
             val value = random + items
-            list.add(ChartBean("1", BigDecimal(value)))
+            list.add(ChartBean("Loop Tasks ", BigDecimal(value)))
         }
-        list.add(ChartBean("1", BigDecimal(42000)))
-        list.add(ChartBean("2", BigDecimal(39000)))
-        list.add(ChartBean("3", BigDecimal(28800)))
-        list.add(ChartBean("4", BigDecimal(20000)))
-        list.add(ChartBean("5", BigDecimal(1500)))
-        list.add(ChartBean("4", BigDecimal(2000)))
-        list.add(ChartBean("4", BigDecimal(10000)))
-        list.add(ChartBean("4", BigDecimal(2500)))
-        list.add(ChartBean("4", BigDecimal(18500)))
+        list.add(ChartBean("Product", BigDecimal(42000)))
+        list.add(ChartBean("Product", BigDecimal(39000)))
+        list.add(ChartBean("Product", BigDecimal(28800)))
+        list.add(ChartBean("Sales", BigDecimal(20000)))
+        list.add(ChartBean("HR", BigDecimal(1500)))
+        list.add(ChartBean("Expenses", BigDecimal(2000)))
+        list.add(ChartBean("Resources", BigDecimal(10000)))
+        list.add(ChartBean("Completed", BigDecimal(2500)))
+        list.add(ChartBean("Pending", BigDecimal(18500)))
         barChartView.mData = list
     }
 
@@ -56,17 +56,16 @@ class MainActivity : AppCompatActivity() {
         val barChartView = findViewById<BarChartView>(R.id.barChartView)
         for (items in 0 until 2) {
             val value = random + items
-            list.add(ChartBean("1", BigDecimal(value)))
+            list.add(ChartBean("Loop Tasks 1", BigDecimal(value)))
         }
         list.add(ChartBean("1", BigDecimal(4400)))
-        list.add(ChartBean("2", BigDecimal(6060)))
-        list.add(ChartBean("3", BigDecimal(800)))
-        list.add(ChartBean("4", BigDecimal(2029)))
-        list.add(ChartBean("5", BigDecimal(1500)))
-        list.add(ChartBean("4", BigDecimal(2000)))
-        list.add(ChartBean("4", BigDecimal(500)))
-        list.add(ChartBean("4", BigDecimal(900)))
-        list.add(ChartBean("4", BigDecimal(1500)))
+        list.add(ChartBean("Product", BigDecimal(28800)))
+        list.add(ChartBean("Sales", BigDecimal(20000)))
+        list.add(ChartBean("HR", BigDecimal(1500)))
+        list.add(ChartBean("Expenses", BigDecimal(2000)))
+        list.add(ChartBean("Resources", BigDecimal(10000)))
+        list.add(ChartBean("Completed", BigDecimal(2500)))
+        list.add(ChartBean("Pending", BigDecimal(18500)))
         barChartView.mData = list
     }
 }
