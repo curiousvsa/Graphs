@@ -53,7 +53,7 @@ Step 5 :  Adding Live Data 👇
 	val list = arrayListOf<ChartBean>()
 	list.add(ChartBean("Add the Particular Bar Title Text", BigDecimal(42000)))
 ----------
-Step 6 : Combine Live Data to the View ⛔
+Step 6 : Combine Live Data to the View :heavy_plus_sign:
 ----------
 	barChartView.mData = list
 ----------
