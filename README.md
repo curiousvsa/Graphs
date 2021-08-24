@@ -57,7 +57,7 @@ Step 6 : Combine Live Data to the View :heavy_plus_sign:
 ----------
 	barChartView.mData = list
 ----------
-Simple Code Snippet: 
+Code Snippet: (Use Case) 
 ----------
 	val list = arrayListOf<ChartBean>()
         val barChartView = findViewById<BarChartView>(R.id.barChartView)
