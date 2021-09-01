@@ -21,7 +21,7 @@
     <attr name="BarRadius" format="dimension" />
     <attr name="BarColor" format="color" />
 
-
+    <!--BarChart-->
     <declare-styleable name="BarChartView">
         <attr name="YTextSize" />
         <attr name="YTextRightMargin" />
@@ -35,6 +35,17 @@
         <attr name="BarTopTextColor" />
         <attr name="BarRadius" />
         <attr name="BarColor" />
+    </declare-styleable>
+
+
+    <!--PieChart-->
+    <declare-styleable name="PieChartView">
+        <attr name="PieRadius" format="dimension" />
+        <attr name="TextSize" format="dimension" />
+        <attr name="TextTopMargin" format="dimension" />
+        <attr name="PieTextSize" format="dimension" />
+        <attr name="PieTextColor" format="color" />
+
     </declare-styleable>
 
 </resources>
