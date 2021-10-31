@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Charts">
-        <activity android:name=".PieChart"></activity>
+        <activity android:name=".PieChart" />
         <activity android:name=".ChoiceScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,3 +21,5 @@
     </application>
 
 </manifest>
+
+<!--Pushed From iOS-->
