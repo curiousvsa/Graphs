@@ -17,12 +17,12 @@ class PieChart : AppCompatActivity() {
     private fun setChartData() {
         val pieChartView = findViewById<PieChart>(R.id.pieChartView)
         val list = arrayListOf<PieChartBean>()
-        list.add(PieChartBean("1", BigDecimal(30), Color.BLUE))
-        list.add(PieChartBean("2", BigDecimal(22), Color.GREEN))
-        list.add(PieChartBean("3", BigDecimal(21), Color.LTGRAY))
-        list.add(PieChartBean("4", BigDecimal(15), Color.CYAN))
-        list.add(PieChartBean("5", BigDecimal(7), Color.MAGENTA))
-        list.add(PieChartBean("6", BigDecimal(5), Color.DKGRAY))
+        list.add(PieChartBean("P-123", BigDecimal(30), Color.BLUE))
+        list.add(PieChartBean("N-23", BigDecimal(22), Color.GREEN))
+        list.add(PieChartBean("R-197", BigDecimal(21), Color.LTGRAY))
+        list.add(PieChartBean("T-486", BigDecimal(15), Color.CYAN))
+        list.add(PieChartBean("R-65", BigDecimal(7), Color.MAGENTA))
+        list.add(PieChartBean("SR-192", BigDecimal(5), Color.DKGRAY))
         pieChartView!!.mData = list
     }
 }

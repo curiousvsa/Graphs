@@ -39,14 +39,14 @@ class BarGraph : AppCompatActivity() {
             val value = random + items
             list.add(ChartBean("Loop Tasks ", BigDecimal(value)))
         }*/
-        list.add(ChartBean("Product", BigDecimal(42000)))
-        list.add(ChartBean("Product", BigDecimal(39000)))
-        list.add(ChartBean("Product", BigDecimal(28800)))
+        list.add(ChartBean("P-123", BigDecimal(42000)))
+        list.add(ChartBean("N-23", BigDecimal(39000)))
+        list.add(ChartBean("D-51", BigDecimal(28800)))
         list.add(ChartBean("Sales", BigDecimal(20000)))
         list.add(ChartBean("HR", BigDecimal(1500)))
-        list.add(ChartBean("Expenses", BigDecimal(2000)))
-        list.add(ChartBean("Resources", BigDecimal(10000)))
-        list.add(ChartBean("Completed", BigDecimal(2500)))
+        list.add(ChartBean("R-197", BigDecimal(2000)))
+        list.add(ChartBean("T-786", BigDecimal(10000)))
+        list.add(ChartBean("Done", BigDecimal(2500)))
         list.add(ChartBean("Pending", BigDecimal(18500)))
         barChartView.mData = list
     }
@@ -58,13 +58,13 @@ class BarGraph : AppCompatActivity() {
             val value = random + items
             list.add(ChartBean("Data", BigDecimal(value)))
         }*/
-        list.add(ChartBean("1", BigDecimal(4400)))
-        list.add(ChartBean("Product", BigDecimal(28800)))
+        list.add(ChartBean("P-123", BigDecimal(4400)))
+        list.add(ChartBean("N-23", BigDecimal(28800)))
         list.add(ChartBean("Sales", BigDecimal(20000)))
         list.add(ChartBean("HR", BigDecimal(1500)))
-        list.add(ChartBean("Expenses", BigDecimal(2000)))
-        list.add(ChartBean("Resources", BigDecimal(10000)))
-        list.add(ChartBean("Completed", BigDecimal(2500)))
+        list.add(ChartBean("R-197", BigDecimal(2000)))
+        list.add(ChartBean("T-486", BigDecimal(10000)))
+        list.add(ChartBean("Done", BigDecimal(2500)))
         list.add(ChartBean("Pending", BigDecimal(18500)))
         barChartView.mData = list
     }
