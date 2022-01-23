@@ -35,10 +35,10 @@ class BarGraph : AppCompatActivity() {
     private fun setChartData() {
         val list = arrayListOf<ChartBean>()
         val barChartView = findViewById<BarChartView>(R.id.barChartView)
-        for (items in 0 until 2) {
+        /*for (items in 0 until 2) {
             val value = random + items
             list.add(ChartBean("Loop Tasks ", BigDecimal(value)))
-        }
+        }*/
         list.add(ChartBean("Product", BigDecimal(42000)))
         list.add(ChartBean("Product", BigDecimal(39000)))
         list.add(ChartBean("Product", BigDecimal(28800)))
@@ -54,10 +54,10 @@ class BarGraph : AppCompatActivity() {
     private fun resetChartData() {
         val list = arrayListOf<ChartBean>()
         val barChartView = findViewById<BarChartView>(R.id.barChartView)
-        for (items in 0 until 2) {
+      /*  for (items in 0 until 2) {
             val value = random + items
-            list.add(ChartBean("Loop Tasks 1", BigDecimal(value)))
-        }
+            list.add(ChartBean("Data", BigDecimal(value)))
+        }*/
         list.add(ChartBean("1", BigDecimal(4400)))
         list.add(ChartBean("Product", BigDecimal(28800)))
         list.add(ChartBean("Sales", BigDecimal(20000)))
