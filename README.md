@@ -62,7 +62,14 @@ Pie Chart :
 ----------
 Step 4 : MainActivity.kt File (Initalize the View)💻 
 ----------
+
+Bar Chart : 
+
 	val barChartView = findViewById<BarChartView>(R.id.barChartView)
+	
+Pie Chart : 
+
+	val pieChartView = findViewById<PieChart>(R.id.pieChartView)
         
 ----------
 Step 5 :  Adding Live Data 👇
